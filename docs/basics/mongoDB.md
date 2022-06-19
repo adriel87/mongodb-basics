@@ -73,10 +73,10 @@ una instancia es una maquina ya sea local o en la nube corriendo un tipo de soft
 ## ahora
 
 
-### [Sistema de archivos JSON/BSON](./JSONvsBSON)
-### [conecta con una base de datos](./connectToCluster)
-### [Creando y manipulando documentos](./documentos)
-### [Consultas o Querys](./querys)
-### [Operadores Logicos](./logicOperators)
+### [Sistema de archivos JSON/BSON](./JSONvsBSON.md)
+### [conecta con una base de datos](./connectToCluster.md)
+### [Creando y manipulando documentos](./documentos.md)
+### [Consultas o Querys](./querys.md)
+### [Operadores Logicos](./logicOperators.md)
 
 
