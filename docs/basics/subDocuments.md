@@ -23,5 +23,21 @@ persona.name
 pues en mongoDB se trabaja de forma similar por no decir igual
 
 
-~~~ alakjsd 
+```shell
+db.<collection>.find({
+    "<tu documento>.<elcampo>": <expresion o valor a validar/comparar>
+})
+```
+
+tambien es posible que lo que tengamos sea una array de objeto, para lo cual solo tenemos que indicarle la posicion, sin embargo no es como en JS que usamos `[0]` para determinar la primera posicion.
+
+seguimos usando la notacion del punto veamos un ejemplo de sintaxis
+
+```shell
+db.<collection>.find({
+    "<tu array documento>.<posicion>.<elcampo>": <expresion o valor a validar/comparar>
+})
+```
+
+donde la `posicion` es un valor numerico
 
