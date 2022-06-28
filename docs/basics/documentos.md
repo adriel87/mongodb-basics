@@ -50,4 +50,12 @@ normalmente representado de la siguiente forma
 ### [LEER](./leerDocumentos.md)
 ### [ELIMINAR](./eliminarDocumentos.md)
 
+## Otras manipulaciones
+
+### [subdocumentos](./subDocuments.md)
+### [ordenar](./OrdenarYAcotar.md)
+### [upsert](./updatinData.md)
+### [indices](./indices.md)
+
+
 

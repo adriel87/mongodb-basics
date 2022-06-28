@@ -78,5 +78,8 @@ una instancia es una maquina ya sea local o en la nube corriendo un tipo de soft
 ### [Creando y manipulando documentos](./documentos.md)
 ### [Consultas o Querys](./querys.md)
 ### [Operadores Logicos](./logicOperators.md)
+### [Expresiones](./expressiveQueryOperator.md)
+### [Tips modelando](./modelado.md)
+
 
 
