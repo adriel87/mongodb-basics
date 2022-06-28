@@ -10,7 +10,7 @@ JavaScript Object Notation
 
   
 
-en mongo los documentos son basicamente objetos de JS. Se usa el formato JSON para definir la sintaxis de los mismos
+en mongo los documentos son básicamente objetos de JS. Se usa el formato JSON para definir la sintaxis de los mismos
 
   
 
@@ -44,7 +44,7 @@ como vemos los field se escriben entre comillas dobles
 
 - su lectura es muy sencilla
 
-- familiar, el formato JSON es un standar en la industria
+- familiar, el formato JSON es un standard en la industria 
 
   
 
@@ -69,7 +69,7 @@ Binary JSON
 
   
 
-es la representacion en binario de una archivo con formato JSON
+es la representación en binario de una archivo con formato JSON
 
   
 
@@ -77,7 +77,7 @@ es la representacion en binario de una archivo con formato JSON
 
   
 
-- Es rapido
+- Es rápido
 
 - menos espacio
 
@@ -85,7 +85,7 @@ es la representacion en binario de una archivo con formato JSON
 
 - tiene un alto performance
 
-- es de proposito general
+- es de propósito general
 
   
   

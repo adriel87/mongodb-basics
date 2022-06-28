@@ -1,7 +1,7 @@
 # Ordenar
 
 ## sort
-muchas veces vamos a querer que nuestras busquedas esten ordenadas por algun campo
+muchas veces vamos a querer que nuestras búsquedas estén ordenadas por algún campo
 
 
 vamos a usar $sort
@@ -31,6 +31,6 @@ db.<collection>.find().sort({
 
 ## limit
 
-ya vimos en el ejemplo anterior el uso de la funcion limit
+ya vimos en el ejemplo anterior el uso de la función limit
 
-basicamente lo que hace esta funcion es limitar la cantidad de documentos que nos devuelve la consulta
+básicamente lo que hace esta función es limitar la cantidad de documentos que nos devuelve la consulta

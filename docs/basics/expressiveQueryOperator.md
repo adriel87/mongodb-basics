@@ -1,9 +1,9 @@
 # Operadores de consultas expresiva
-La verdad es que la traduccion no deja las cosas muy claras, llevemos las cosas a un terreno mas asequible.
+La verdad es que la traducción no deja las cosas muy claras, llevemos las cosas a un terreno mas asequible.
 
-Basicamente lo que nos permiten las expressive query operator es usar variables dentro de las consultas.
+Básicamente lo que nos permiten las expressive query operator es usar variables dentro de las consultas.
 
-Permitir usar operadores logicos en las conultas
+Permitir usar operadores lógicos en las consultas
 
 ## sintaxis
 `"$expr": <logic operation>`

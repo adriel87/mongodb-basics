@@ -12,8 +12,8 @@ Los operadores que nos permiten trabajar con los arrays dentro de mongo db
 
 ### $all
 
-- permite realizar busquedas 
-- la sintaxis es similar a los operadores logicos
+- permite realizar búsquedas 
+- la sintaxis es similar a los operadores lógicos
   - `{<field> : {"$all":[<parameters...>]}`
   - ejemplo
 ```mongodb
@@ -24,11 +24,11 @@ db.listingsAndReviews.find({
   }
 }).size()  
 ```
- como vemos en el ejemplo anterior buscamos con all y hacemos match si se encuentran todos los parametros que pasemos dentro del array
+ como vemos en el ejemplo anterior buscamos con all y hacemos match si se encuentran todos los parámetros que pasemos dentro del array
 
  ### $size
 
- - con size indicamos el tama;o minimo de el array en el que vamos a buscar
+ - con size indicamos el tamaño mínimo de el array en el que vamos a buscar
 
  - en el ejemplo de arriba lo usamos indicamos que el array tiene que ser de 20
 

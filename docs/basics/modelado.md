@@ -6,4 +6,4 @@
 
 3. quien va a usar esos datos
 
-4. si la aplicacion evoluciona tambien deberia hacerlo el modelado de tus datos
+4. si la aplicación evoluciona también debería hacerlo el modelado de tus datos

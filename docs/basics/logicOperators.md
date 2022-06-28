@@ -1,8 +1,8 @@
-# Operadores logicos
+# Operadores lógicos
 
 Esta parte esta muy relacionada con los [query opertaros](./querys.md)
 
-Los operadores logicos ayudan a crear querys mas especificas estableciendo una serie de condiciones en funcion de si se van cumpliendo o no ciertas consultas.
+Los operadores lógicos ayudan a crear querys mas especificas estableciendo una serie de condiciones en función de si se van cumpliendo o no ciertas consultas.
 
 Veamos un mini ejemplo
 
@@ -18,10 +18,10 @@ db.routes.find({ "$and":
 
 como vemos los operadores en este caso son
 
-- $and : operador logico que representa "***Y***"
-- $or : operador logico que representa "***O***"
+- $and : operador lógico que representa "***Y***"
+- $or : operador lógico que representa "***O***"
 
-Ademas podemos ver claramente como es la sintaxis en las que luego de usar nuestro operador logico tenemos que introdocir dentro de un array las condiciones y estas a su ves tendran su consulta
+Ademas podemos ver claramente como es la sintaxis en las que luego de usar nuestro operador lógico tenemos que introducir dentro de un array las condiciones y estas a su ves tendrán su consulta
 
 ## tabla de operadores
 | operator 	| description       	|

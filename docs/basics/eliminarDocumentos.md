@@ -10,10 +10,10 @@ db.<coleccion>.deleteOne({query})
 db.<colection>.deleteMany({query})
 ```
 
-## Toda la coleccion
+## Toda la colección
 ```shell
 db.<colection>.drop()
 ```
 
-este ultimo comando borrara toda la coleccion, asi que ***CUIDADO***
+este ultimo comando borrara toda la colección, asi que ***CUIDADO***
 

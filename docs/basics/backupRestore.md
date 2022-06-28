@@ -1,21 +1,21 @@
 # Copias de seguridad 🤔
 
-Seguramente en algun momento o de forma recursiva necesitemos realizar una copia de nuestra flamante base de datos o recuperar la informacion de una copia que previamente hagamos o descarguemos.
+Seguramente en algún momento o de forma recursiva necesitemos realizar una copia de nuestra flamante base de datos o recuperar la información de una copia que previamente hagamos o descarguemos.
 
 ## Haciendo un Backup
 
 para hacer un backup de nuestra base de datos basta con lanzar el siguiente comando
 
-```shell
+```Shell
 
-mongoexport --db <nuestra-base-de-datos> -c <la coleccion> --out <nombre de la copia>.json
+mongoexport --db <nuestra-base-de-datos> -c <la colección> --out <nombre de la copia>.json
 
 ```
 esto nos crea una archivo en la carpeta desde la que hemos lanzado el comando
 
 ## recuperando un Backup
 
-```shell
+```Shell
 
 mongorestore <nombreColeccion> <rutaDelBackup>
 

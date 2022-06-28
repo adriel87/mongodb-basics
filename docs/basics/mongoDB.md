@@ -1,20 +1,20 @@
 # Mongo
 
-En esta documentacion veremos el manejo de una de las bases de datos mas usadas en la actualidad `2022`.
+En esta documentación veremos el manejo de una de las bases de datos mas usadas en la actualidad `2022`.
 
-si quieres ir a la chicha pincha [aqui](#ahora)
-
-
+si quieres ir a la chicha pincha [aquí](#ahora)
 
 
 
-## Descipcion
+
+
+## Descripción
 
 mongoDB es NoSQL document database
 
   
 
-las bases de datos no relacionales estan organizadas de la siguiente manera
+las bases de datos no relacionales están organizadas de la siguiente manera
 
   
 
@@ -40,7 +40,7 @@ se compone de :
 
   
 
-una coleccion es un conjunto de documentos, normalmente los documentos tiene relacion entre si
+una colección es un conjunto de documentos, normalmente los documentos tiene relación entre si
 
   
 
@@ -54,13 +54,13 @@ es un gestor para las bases de datos de mongo
 
 ### cluster
 
-un grupo de servidores donde se guarda la informacion
+un grupo de servidores donde se guarda la información
 
   
 
 ### replica set
 
-son varias instancias de mongodb conectadas entre di con la misma informacion
+son varias instancias de mongodb conectadas entre di con la misma información
 
   
 

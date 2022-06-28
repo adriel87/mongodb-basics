@@ -25,7 +25,7 @@ db.casitas.aggregation([
 
 si nos fijamos toda la sintaxis nueva esta dentro de `[]` indicando que es un array. Un array con acciones que vamos a llevar a cabo.
 
-En este sentido el orden de cada accion gana importancia
+En este sentido el orden de cada acción gana importancia
 
 
 ## para que lo usamos
@@ -34,7 +34,7 @@ no parece muy util para una consulta simple.
 
 Vemos us potencial cuando queremos hacer varias acciones cuando realizamos una búsqueda sobre una colección, por ejemplo agrupar por un determinado campo.
 
-nos da la habilidad de sobrepasar la funcionalidad de una simple busqueda puediendo realizar calculos, reformar y reorganizar los datos
+nos da la habilidad de sobrepasar la funcionalidad de una simple búsqueda pudiendo realizar cálculos, reformar y reorganizar los datos
 
 
 ### sintax

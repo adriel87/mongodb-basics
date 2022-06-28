@@ -6,7 +6,7 @@ Pero como buscamos la informacion dentro de esos documentos.
 
 ## dot notation
 
-`dot notation` o notacion por punto es muy similar a cuando tratamos de acceder a las propiedades de un objeto por ejemplo en JS
+`dot notation` o notación por punto es muy similar a cuando tratamos de acceder a las propiedades de un objeto por ejemplo en JS
 
 ```javascript
 const persona = {
@@ -29,9 +29,9 @@ db.<collection>.find({
 })
 ```
 
-tambien es posible que lo que tengamos sea una array de objeto, para lo cual solo tenemos que indicarle la posicion, sin embargo no es como en JS que usamos `[0]` para determinar la primera posicion.
+también es posible que lo que tengamos sea una array de objeto, para lo cual solo tenemos que indicarle la posición, sin embargo no es como en JS que usamos `[0]` para determinar la primera posición.
 
-seguimos usando la notacion del punto veamos un ejemplo de sintaxis
+seguimos usando la notación del punto veamos un ejemplo de sintaxis
 
 ```shell
 db.<collection>.find({
@@ -39,5 +39,5 @@ db.<collection>.find({
 })
 ```
 
-donde la `posicion` es un valor numerico
+donde la `posicion` es un valor numérico
 

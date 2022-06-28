@@ -1,5 +1,5 @@
 # Documentos
-la parte donde guardar la informacion
+la parte donde guardar la información
 
 un documento esta formado por : 
 
@@ -30,8 +30,8 @@ un documento esta formado por :
 
 ```
 
-## identificacion
-en mongoDB cada documento tiene un identificador unico
+## identificación
+en mongoDB cada documento tiene un identificador único
 
 normalmente representado de la siguiente forma
 

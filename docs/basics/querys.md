@@ -1,6 +1,6 @@
 # Consultas
 
-Para realizar consultas por ejemplo con el comando find vemos que necitamos establececer una condicion. 
+Para realizar consultas por ejemplo con el comando find vemos que necesitamos establecer una condición. 
 
 Esto no es mas que indicar los resultados que hacen match con la consulta por ejemplo
 
@@ -15,18 +15,18 @@ estos operadores son los que nos dan el poder de realizar evaluaciones a los val
 
 si conoces algo de SQL seria algo como todo lo que pones dentro del bloque WHERE
 
-para usar un query operator vamos a usar el simbolo de dolar ***`$`***
+para usar un query operator vamos a usar el símbolo de dólar ***`$`***
 
 la sintaxis correcta para usarlo es:
 `{<field>:{<opertator>:<value>}}`
 
-imaginemos una coleccion personas y queremos buscar las que tengan una edad mayor de 30:
+imaginemos una colección personas y queremos buscar las que tengan una edad mayor de 30:
 
 ```shell
 db.personas.find({"edad":{"$gt": 30}})
 ```
 
-Si no indicamo el tipo de operador por defecto tenemos el $eq que es el operador de `igual que`
+Si no indicamos el tipo de operador por defecto tenemos el $eq que es el operador de `igual que`
 
 ## Tabla de operadores
 
