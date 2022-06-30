@@ -4,7 +4,25 @@ Seguramente en algún momento o de forma recursiva necesitemos realizar una copi
 
 ## Haciendo un Backup
 
-para hacer un backup de nuestra base de datos basta con lanzar el siguiente comando
+### base de datos
+
+para hacer una copia de nuestra base de datos hacemos lo siguiente
+
+```Shell
+# 1 forma
+mongodump --uri="mongodb://mongodb0.example.com:27017" [additional options]
+
+# 2 forma
+mongodump --host="mongodb0.example.com:27017"  [additional options]
+
+# 3 forma
+mongodump --host="mongodb0.example.com" --port=27017 [additional options]
+
+# en la pagina oficial de mongo veras varias maneras de usar este comando
+```
+
+### coleccion
+para hacer un backup de nuestras colecciones basta con lanzar el siguiente comando
 
 ```Shell
 
@@ -14,6 +32,8 @@ mongoexport --db <nuestra-base-de-datos> -c <la colección> --out <nombre de la 
 esto nos crea una archivo en la carpeta desde la que hemos lanzado el comando
 
 ## recuperando un Backup
+
+esto vale tanto para bbdd como para colecciones
 
 ```Shell
 
